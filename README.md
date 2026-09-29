@@ -417,7 +417,10 @@ z"/>
 
 
   <p align="center">
-    <strong>A full stack dynamic car auction website built on  </strong>
+	  
+    ## <img width="754" height="825" alt="image8" src="https://github.com/user-attachments/assets/5b0fc945-6f6e-4ac9-9793-30ea99cbee49" />
+A full stack dynamic car auction website
+	
   </p>
 
 </div>
@@ -454,6 +457,13 @@ z"/>
 
 ## 🗄️ Database Architecture & Backend Design
 
+## 🔐 Signup / Login Page
+
+<img width="754" height="825" alt="image8" src="https://github.com/user-attachments/assets/8e10a0dd-2924-44cb-a569-b4ea9fe0ef98" />
+
+All of the entered data will be sent directly and securely to the SQL database as an SQL query
+
+
 The backend uses a normalized relational schema built in **MySQL** to handle auctions, bid histories, user authentication, and media routing.
 
 <img width="198" height="216" alt="image5" src="https://github.com/user-attachments/assets/b24e4b93-bfda-48c4-987d-8b272364582d" />
@@ -485,7 +495,7 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
 - **Backend:** PHP
 - **Database:** SQL (Specifically MySQL)
 - **Hosting:** Locally hosted on XAMPP
-- 
+
 
 
 =
