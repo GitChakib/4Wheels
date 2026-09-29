@@ -419,7 +419,7 @@ z"/>
   <div align="center">
 	  
 
- **A full stack dynamic car auction website**
+ <h1> A full stack dynamic car auction website </h1>
 	
   </div>
 
