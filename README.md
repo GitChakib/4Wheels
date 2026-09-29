@@ -493,11 +493,11 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
 
 ## ⚡ Tech Stack
 
-**Frontend:** HTML5, CSS3, Javascript
-**Backend:** PHP
-**Database:** SQL (Specifically MySQL)
-**Hosting:** Locally hosted on XAMPP
-
+**Frontend:** HTML5, CSS3, Javascript </br>
+**Backend:** PHP </br>
+**Database:** SQL (Specifically MySQL) </br>
+**Hosting:** Locally hosted on XAMPP </br>
+ 
 ### Prerequisites
 
 **XAMPP** (to host it locally)
