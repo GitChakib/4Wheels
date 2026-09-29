@@ -488,7 +488,7 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
 - 
 
 
----
+=
 ### Prerequisites
 
 - XAMPP (to host it locally)
@@ -499,9 +499,8 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
 1. Clone or copy this repository into your XAMPP `htdocs` directory:
    ```bash
    cd C:/xampp/htdocs/
-   git clone [https://github.com/GitChakib/4Wheels.git](https://github.com/GitChakib/4Wheels.git)
-2. Run the SQL Query found on "car_site_db.sql" on your local SQL OS service to get the data to work
-- </div>
+   git clone https://github.com/GitChakib/4Wheels.git
+2. Run the SQL Query found on "car_site_db.sql" on your local SQL OS service to get the data to work</div>
 
 
 
