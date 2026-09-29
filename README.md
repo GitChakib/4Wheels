@@ -416,13 +416,12 @@ z"/>
 
 
 
-  <p align="center">
+  <div align="center">
 	  
-<img width="754" height="825" alt="image8" src="https://github.com/user-attachments/assets/5b0fc945-6f6e-4ac9-9793-30ea99cbee49" />
 
- A full stack dynamic car auction website
+ **A full stack dynamic car auction website**
 	
-  </p>
+  </div>
 
 </div>
 
