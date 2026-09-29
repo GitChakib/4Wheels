@@ -500,8 +500,8 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
 
 ### Prerequisites
 
-- XAMPP (to host it locally)
-- Web browser
+**XAMPP** (to host it locally)
+**Web browser**
 
 ## 🚀 Getting Started
 
@@ -511,5 +511,9 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
    git clone https://github.com/GitChakib/4Wheels.git
 2. Run the SQL Query found on "car_site_db.sql" on your local MySQL or phpmyadmin service to get the data to work (or you can directly import an SQL file from the service, if so then directly choose the same file)</div>
 
+## 👨‍💻 Author
+
+**Chakib**
+- GitHub: [@GitChakib](https://github.com/GitChakib)
 
 
