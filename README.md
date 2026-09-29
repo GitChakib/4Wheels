@@ -434,8 +434,8 @@ z"/>
 
 ## 🏠 Homepage and Layout
 
-<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/b3baf12a-3b61-46ef-98fd-7a474a8c7531" />
-<img width="900" height="600" alt="image2" src="https://github.com/user-attachments/assets/f2edd4d7-5c81-4dd7-9161-6f21d0cd04d3" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/b3baf12a-3b61-46ef-98fd-7a474a8c7531" />
+<img width="1280" height="720" alt="image2" src="https://github.com/user-attachments/assets/f2edd4d7-5c81-4dd7-9161-6f21d0cd04d3" />
 
 
 - 🎨 **Batch Renderer:** Optimized 2D quad and sprite rendering.
