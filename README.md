@@ -413,3 +413,77 @@ M219.885391,227.002625
 z"/>
 </svg>
 </h1>
+
+
+
+  <p align="center">
+    <strong>A full stack dynamic car auction website built on  </strong>
+  </p>
+
+</div>
+
+<br />
+
+
+<div align="center">
+  
+
+</div>
+
+---
+
+## 🏠 Homepage and Layout
+
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/b3baf12a-3b61-46ef-98fd-7a474a8c7531" />
+<img width="900" height="600" alt="image2" src="https://github.com/user-attachments/assets/f2edd4d7-5c81-4dd7-9161-6f21d0cd04d3" />
+
+
+- 🎨 **Batch Renderer:** Optimized 2D quad and sprite rendering.
+- ⚙️ **Entity Component System (ECS):** Flexible, cache-friendly entity management.
+- 📐 **Collision System:** Rigid-body Collision.
+
+---
+
+<div align="center">
+  
+
+<img width="190" height="184" alt="Recording 2026-09-25 194238" src="https://github.com/user-attachments/assets/e50f5d4d-5d1f-4289-ad8b-339b72eb5512" />
+
+</div>
+
+## 🏗 Architecture Overview
+
+```mermaid
+graph TD
+    A[Game Application] --> B["Graphics libraries (Graphics 2D and Jframe)"]
+    A --> C["Game Loop (update(cd))"]
+    
+    B --> D[Component Object]
+    C --> D
+    
+    D --> E[Character]
+    D --> F[Terrain]
+    D --> G[Sky]
+    D --> H[Clouds]
+    D --> I[Timer]
+```
+
+## 🛠 Tech Stack & Dependencies
+
+- **Language:** JAVA 27
+- **Libraries:** Swing and AWT (Should be built in JAVA)
+
+
+---
+### Prerequisites
+
+- Ensure you have a JAVA 27 compatible IDE and JAVA 27, Also JDK HAS to be installed (if you want to add new things)
+
+## 🚀 Getting Started
+
+- Make sure you have the whole project downloaded or else some assets could be missing
+- I didn't make an executable so it can only be ran through an IDE
+- Can be easily tinkered with using the Component object, just create a new Object, extend it to Component and try it!
+
+
+
