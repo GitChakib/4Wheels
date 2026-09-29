@@ -430,12 +430,12 @@ z"/>
 
 ## 🏠 Homepage and Layout
 
-## Dark Theme  
+## 🌙 Dark Theme  
 
 <img width="1627" height="924" alt="image" src="https://github.com/user-attachments/assets/fdd17de5-a1cc-45d9-855c-c8c9bee09976" />
 
 
-## Light Theme
+## ☀️ Light Theme
 
 <img width="1627" height="924" alt="image2" src="https://github.com/user-attachments/assets/b66c2e91-5a9b-4e9a-ab12-65d54b0640fa" />
 
@@ -450,41 +450,58 @@ z"/>
 <div align="center">
   
 
-</div>
 
-## 🏗 Architecture Overview
 
-```mermaid
-graph TD
-    A[Game Application] --> B["Graphics libraries (Graphics 2D and Jframe)"]
-    A --> C["Game Loop (update(cd))"]
-    
-    B --> D[Component Object]
-    C --> D
-    
-    D --> E[Character]
-    D --> F[Terrain]
-    D --> G[Sky]
-    D --> H[Clouds]
-    D --> I[Timer]
-```
+## 🗄️ Database Architecture & Backend Design
 
-## 🛠 Tech Stack & Dependencies
+The backend uses a normalized relational schema built in **MySQL** to handle auctions, bid histories, user authentication, and media routing.
 
-- **Language:** JAVA 27
-- **Libraries:** Swing and AWT (Should be built in JAVA)
+<img width="198" height="216" alt="image5" src="https://github.com/user-attachments/assets/b24e4b93-bfda-48c4-987d-8b272364582d" />
+
+### 📊 Relational Schema (`car_site_db`)
+
+ <img width="1388" height="381" alt="image7" src="https://github.com/user-attachments/assets/cf13ef06-a295-481e-b2e8-cb6dc23f3c39" />
+
+- **`users`**: Manages account credentials, profile details, and account creation timestamps. Passwords are securely hashed using **BCrypt** (`PASSWORD_BCRYPT`).
+- **`cars`**: Stores detailed vehicle specifications including VIN, horsepower, transmission type, location, reserve status, and seller associations (`seller` FK linked to `users.id`).
+- **`auctions`**: Manages auction states, start/end timestamps, and active status.
+- **`bids`**: Tracks bid amounts, linking bidder IDs (`users.id`) to specific auction records (`auctions.id`).
+- **`images`**: One-to-Many relational table linking multiple image file paths to a single vehicle ID (`cars.id`).
+
+---
+
+### 🛡️️ Security Implementation
+
+- **Password Hashing**: Utilizes PHP’s `password_hash()` with BCrypt salting to ensure user passwords are never stored in plain text.
+
+ <img width="806" height="123" alt="image6" src="https://github.com/user-attachments/assets/11cc3cf9-8942-4c79-b273-11914c67c82e" />
+ 
+- **SQL Injection Prevention**: All database interactions use prepared statements (`PDO` / `mysqli` parameter binding) to sanitize user inputs prior to query execution.
+
+
+## ⚡ Tech Stack
+
+- **Frontend:** HTML5, CSS3, Javascript
+- **Backend:** PHP
+- **Database:** SQL (Specifically MySQL)
+- **Hosting:** Locally hosted on XAMPP
+- 
 
 
 ---
 ### Prerequisites
 
-- Ensure you have a JAVA 27 compatible IDE and JAVA 27, Also JDK HAS to be installed (if you want to add new things)
+- XAMPP (to host it locally)
+- Web browser
 
 ## 🚀 Getting Started
 
-- Make sure you have the whole project downloaded or else some assets could be missing
-- I didn't make an executable so it can only be ran through an IDE
-- Can be easily tinkered with using the Component object, just create a new Object, extend it to Component and try it!
+1. Clone or copy this repository into your XAMPP `htdocs` directory:
+   ```bash
+   cd C:/xampp/htdocs/
+   git clone [https://github.com/GitChakib/4Wheels.git](https://github.com/GitChakib/4Wheels.git)
+2. Run the SQL Query found on "car_site_db.sql" on your local SQL OS service to get the data to work
+- </div>
 
 
 
