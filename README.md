@@ -418,8 +418,9 @@ z"/>
 
   <p align="center">
 	  
-    ## <img width="754" height="825" alt="image8" src="https://github.com/user-attachments/assets/5b0fc945-6f6e-4ac9-9793-30ea99cbee49" />
-A full stack dynamic car auction website
+<img width="754" height="825" alt="image8" src="https://github.com/user-attachments/assets/5b0fc945-6f6e-4ac9-9793-30ea99cbee49" />
+
+ A full stack dynamic car auction website
 	
   </p>
 
@@ -496,9 +497,6 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
 - **Database:** SQL (Specifically MySQL)
 - **Hosting:** Locally hosted on XAMPP
 
-
-
-=
 ### Prerequisites
 
 - XAMPP (to host it locally)
