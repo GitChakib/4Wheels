@@ -426,28 +426,25 @@ z"/>
 
 
 <div align="center">
-  
 
-</div>
-
----
 
 ## 🏠 Homepage and Layout
 
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/b3baf12a-3b61-46ef-98fd-7a474a8c7531" />
-<img width="1280" height="720" alt="image2" src="https://github.com/user-attachments/assets/f2edd4d7-5c81-4dd7-9161-6f21d0cd04d3" />
+  <strong> Dark Theme  </strong>
+
+<img width="1627" height="924" alt="image" src="https://github.com/user-attachments/assets/fdd17de5-a1cc-45d9-855c-c8c9bee09976" />
+           <strong> Light Theme  </strong>
+<img width="1627" height="924" alt="image2" src="https://github.com/user-attachments/assets/b66c2e91-5a9b-4e9a-ab12-65d54b0640fa" />
+
+  ![Listing Details]
+  <img width="1054" height="580" alt="image4" src="https://github.com/user-attachments/assets/cbb445d7-8c1e-4e3d-95b6-d5b2bae9b760" />
 
 
-- 🎨 **Batch Renderer:** Optimized 2D quad and sprite rendering.
-- ⚙️ **Entity Component System (ECS):** Flexible, cache-friendly entity management.
-- 📐 **Collision System:** Rigid-body Collision.
+</div>
 
----
 
 <div align="center">
   
-
-<img width="190" height="184" alt="Recording 2026-09-25 194238" src="https://github.com/user-attachments/assets/e50f5d4d-5d1f-4289-ad8b-339b72eb5512" />
 
 </div>
 
