@@ -451,17 +451,19 @@ z"/>
 
 
 <div align="center">
-  
+
+	
+  ## 🔐 Signup / Login Page
+
+<img width="754" height="825" alt="image8" src="https://github.com/user-attachments/assets/8e10a0dd-2924-44cb-a569-b4ea9fe0ef98" />
+
+All of the entered data will be sent directly and securely to the SQL database as an SQL query
+
 
 
 
 ## 🗄️ Database Architecture & Backend Design
 
-## 🔐 Signup / Login Page
-
-<img width="754" height="825" alt="image8" src="https://github.com/user-attachments/assets/8e10a0dd-2924-44cb-a569-b4ea9fe0ef98" />
-
-All of the entered data will be sent directly and securely to the SQL database as an SQL query
 
 
 The backend uses a normalized relational schema built in **MySQL** to handle auctions, bid histories, user authentication, and media routing.
@@ -491,10 +493,10 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
 
 ## ⚡ Tech Stack
 
-- **Frontend:** HTML5, CSS3, Javascript
-- **Backend:** PHP
-- **Database:** SQL (Specifically MySQL)
-- **Hosting:** Locally hosted on XAMPP
+**Frontend:** HTML5, CSS3, Javascript
+**Backend:** PHP
+**Database:** SQL (Specifically MySQL)
+**Hosting:** Locally hosted on XAMPP
 
 ### Prerequisites
 
@@ -507,7 +509,7 @@ The backend uses a normalized relational schema built in **MySQL** to handle auc
    ```bash
    cd C:/xampp/htdocs/
    git clone https://github.com/GitChakib/4Wheels.git
-2. Run the SQL Query found on "car_site_db.sql" on your local SQL OS service to get the data to work</div>
+2. Run the SQL Query found on "car_site_db.sql" on your local MySQL or phpmyadmin service to get the data to work (or you can directly import an SQL file from the service, if so then directly choose the same file)</div>
 
 
 
