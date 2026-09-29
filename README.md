@@ -433,6 +433,8 @@ z"/>
 ## Dark Theme  
 
 <img width="1627" height="924" alt="image" src="https://github.com/user-attachments/assets/fdd17de5-a1cc-45d9-855c-c8c9bee09976" />
+
+
 ## Light Theme
 
 <img width="1627" height="924" alt="image2" src="https://github.com/user-attachments/assets/b66c2e91-5a9b-4e9a-ab12-65d54b0640fa" />
