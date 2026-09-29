@@ -1,3 +1,4 @@
+<h1 align="center">
 <img width="300" height="64" alt="Logo_Gray" src="https://github.com/user-attachments/assets/a64ab911-f692-4686-8677-232c58e745fb" />
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100%" viewBox="0 0 2000 428" enable-background="new 0 0 2000 428" xml:space="preserve">
@@ -411,3 +412,4 @@ M219.885391,227.002625
 	C225.088058,227.166840 222.770828,227.063385 219.885391,227.002625 
 z"/>
 </svg>
+</h1>
